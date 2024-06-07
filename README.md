@@ -2,7 +2,7 @@
 A uni project repository, for running a Docker with Compose and making two containers for SDN Floodlight controller and Mininet topology. 
 /////////
 ////////
-Requirements to finnish the tasl successfully:
+Requirements to finnish the task successfully:
 Install Docker and get familiar with it according to the Docker curriculum;
 
 Get familiar with Docker Compose and the possibility to compose your own stack of applications in containers;
