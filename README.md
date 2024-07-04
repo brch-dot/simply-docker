@@ -28,7 +28,8 @@ Demonstrate how you configure bidirectional traffic rules between the two most d
 Demonstrate that your script works by running a ping between the two hosts for which you have created the rules. 
 
 
-This project is conducted for a course in New Bulgarian Univeristy, signature TCMBO29 Introduction in Networking - part II.\
+This project is conducted for a course in New Bulgarian Univeristy, signature TCMBO29 Introduction to Networking - II.
+
 Lecturer: Dr. Nikolay Milovanov
 08.06.2024
 
