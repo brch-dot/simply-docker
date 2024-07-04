@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   floodlight:
-    image: moskovko/floodlight
+    image: btsonev/sdn-floodlight-ubuntu22
     container_name: floodlight
     ports:
       - "6653:6653"
@@ -11,7 +11,7 @@ services:
       - net
 
   mininet:
-    image: custom-mininet2
+    image: btsonev/custom-mininet2
     container_name: mininet
     volumes:
       - ./mininet_script.py:/home/btsonev/docker2/mininet_script.py
