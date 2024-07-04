@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+  floodlight:
+    image: moskovko/floodlight
+    container_name: floodlight
+    ports:
+      - "6653:6653"
+      - "8080:8080"
+    networks:
+      - net
+
+  mininet:
+    image: custom-mininet2
+    container_name: mininet
+    volumes:
+      - ./mininet_script.py:/home/btsonev/docker2/mininet_script.py
+      - ./mininet_entrypoint.sh:/home/btsonev/docker2/mininet_entrypoint.sh
+    entrypoint: /home/btsonev/docker2/mininet_entrypoint.sh
+    privileged: true
+    networks:
+      - net
+    depends_on:
+      - floodlight
+
+networks:
+  net:
+    driver: bridge
+
