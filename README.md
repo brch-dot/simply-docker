@@ -33,3 +33,8 @@ This project is conducted for a course in New Bulgarian Univeristy, signature TC
 Lecturer: Dr. Nikolay Milovanov
 08.06.2024
 
+In order to run these containers you will need to download Docker and Docker Compose.
+Also make sure you have the latest OVS version.
+
+After you install everything, run the docker-compose file, but make sure you edit the paths in it.
+
